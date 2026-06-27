@@ -444,6 +444,11 @@ body {
     max-width: 90%;    /* Keeps it responsive on smaller screens */
     margin: 20px auto; /* Centers it */
 }
+.offer-card p {
+    color: #333;   /* Dark gray */
+    font-size: 18px;
+    text-align: center;
+}
 /* BODY */
 body {
     margin: 0;
