@@ -599,3 +599,108 @@ footer h2 {
 footer p {
     color: #fff;
 }
+/* HOME PAGE */
+body.home-page {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: white;
+
+    background:
+        linear-gradient(rgba(0, 0, 0, 0.6),
+                        rgba(0, 0, 0, 0.6)),
+        url("images/home page.jpg") no-repeat center center;
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+/* NAVIGATION BAR */
+nav {
+    background-color: rgba(11, 23, 54, 0.85);
+    padding: 15px 0;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+nav ul li a:hover {
+    color: #ff9800;
+}
+
+/* HERO SECTION */
+.home-header {
+    text-align: center;
+    padding: 120px 20px;
+}
+
+.home-header h1 {
+    font-size: 60px;
+    margin-bottom: 15px;
+    color: #ffffff;
+}
+
+.home-header p {
+    font-size: 24px;
+    color: #f0f0f0;
+}
+
+.home-btn {
+    display: inline-block;
+    margin-top: 30px;
+    padding: 15px 35px;
+    background-color: #ff9800;
+    color: white;
+    text-decoration: none;
+    border-radius: 30px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.home-btn:hover {
+    background-color: #e68900;
+    transform: scale(1.05);
+}
+
+/* SERVICES PREVIEW */
+.services-preview {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+    padding: 50px 20px;
+}
+
+.service-card {
+    width: 300px;
+    background: rgba(255, 255, 255, 0.9);
+    color: #333;
+    border-top: 5px solid #ff9800;
+    border-radius: 20px;
+    padding: 25px;
+    text-align: center;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+    transition: 0.3s;
+}
+
+.service-card:hover {
+    transform: translateY(-10px);
+}
+
+.service-card h3 {
+    color: #1e3c72;
+}
