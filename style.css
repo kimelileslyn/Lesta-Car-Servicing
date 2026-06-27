@@ -432,10 +432,165 @@ footer p {
     transform: scale(1.05);
 }
 .offer-card {
-    .offer-card {
     width: 800px;      /* Makes the box wide */
     max-width: 90%;    /* Keeps it responsive on smaller screens */
     margin: 20px auto; /* Centers it */
 }
+/* BODY */
+body {
+    margin: 0;
+    background-color: #0a0a0a;
+    color: white;
+    font-family: Arial, sans-serif;
 }
 
+/* HERO */
+.contact-hero {
+    height: 400px;
+
+    background:
+    linear-gradient(rgba(0,0,0,0.6),
+    rgba(0,0,0,0.6)),
+    url("images/contact-bg.jpg");
+
+    background-size: cover;
+    background-position: center;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-hero h1 {
+    border: 3px solid #ff9800;
+    padding: 20px 50px;
+    letter-spacing: 5px;
+    font-size: 40px;
+}
+
+/* CONTACT INFO */
+.contact-info {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+
+    padding: 70px 20px;
+}
+
+.info-card {
+    text-align: center;
+    width: 250px;
+}
+
+.info-card i {
+    color: #ff9800;
+    font-size: 30px;
+}
+
+.info-card h3 {
+    color: #ff9800;
+}
+
+/* FORM */
+.contact-form-section {
+    width: 60%;
+    margin: auto;
+    text-align: center;
+}
+
+.contact-form-section h2 {
+    color: #ff9800;
+}
+
+.contact-form-section input,
+.contact-form-section textarea {
+
+    width: 100%;
+    margin: 15px 0;
+
+    padding: 15px;
+
+    background: #1d1d1d;
+
+    border: none;
+
+    color: white;
+}
+
+.contact-form-section textarea {
+    height: 150px;
+}
+
+.contact-form-section button {
+
+    background: #ff9800;
+
+    color: black;
+
+    border: none;
+
+    padding: 15px 30px;
+
+    font-weight: bold;
+
+    cursor: pointer;
+
+    transition: 0.3s;
+}
+
+.contact-form-section button:hover {
+    background: white;
+}
+
+/* SOCIAL */
+.social-section {
+    text-align: center;
+    padding: 60px 0;
+}
+
+.social-section h2 {
+    color: #ff9800;
+}
+
+.social-icons a {
+
+    color: #ff9800;
+
+    font-size: 25px;
+
+    margin: 15px;
+
+    transition: 0.3s;
+}
+
+.social-icons a:hover {
+    color: white;
+}
+
+/* MAP */
+.map-section iframe {
+
+    width: 100%;
+
+    height: 400px;
+
+    border: none;
+}
+
+/* FOOTER */
+footer {
+
+    text-align: center;
+
+    background: #111;
+
+    padding: 50px 20px;
+}
+
+footer h2 {
+    color: #ff9800;
+}
+
+footer p {
+    color: #fff;
+}
