@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>BOOKINGS</title>
+</head>
+<body>
     <nav>
         <ul>
             <li><a href="HOME.html">HOME</a></li>
@@ -15,14 +17,8 @@
             <li><a href="SALES.html">SALES</a></li>
             <li><a href="SERVICES.html">SERVICES</a></li>
 
-        </ul>
-
-    
-    
-        
+            </ul>
     </nav>
-</head>
-<body>
     <section class="booking">
         <h1>Book Your Service</h1>
         <p>Fill out the form below to schedule your car servicing appointment.</p>
@@ -50,15 +46,16 @@
 
             <label for="time">Preferred Time:</label>
             <input type="time" id="time" name="time" required>
-            <label> Vehicle Model</label>
-            <input type="text" name="vehicle_model" required>
+            <label for="vehicle_model">Vehicle Model:</label>
+            <input type="text" id="vehicle_model" name="vehicle_model" required>
 
             <button type="submit">Submit Booking</button>
 
         </form>
         <p id="message"></p>
     </section>
-    <script src="script.js"></script>    
+                    
+    
 
 </body>
 </html>
