@@ -443,15 +443,20 @@ body {
     color: white;
     font-family: Arial, sans-serif;
 }
+/* ENTIRE CONTACT PAGE */
+body.contact-page {
+    background-color: #0a0a0a;
+    color: white;
+}
 
-/* HERO */
+/* HERO SECTION */
 .contact-hero {
     height: 400px;
 
     background:
     linear-gradient(rgba(0,0,0,0.6),
     rgba(0,0,0,0.6)),
-    url("images/contact-bg.jpg");
+    url("images/contact us.jpg") no-repeat center center;
 
     background-size: cover;
     background-position: center;
