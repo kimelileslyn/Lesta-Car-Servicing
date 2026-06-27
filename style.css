@@ -8,7 +8,7 @@
 /* Body Styling */
 body {
     font-family: Arial, sans-serif;
-    background-color: #f4f4f9;
+    background-color: white;
     color: #333;
     padding: 20px;
 }
@@ -17,6 +17,7 @@ body {
 header {
     background-color: #6c63ff;
     color: white;
+    
     padding: 20px;
     border-radius: 10px;
 }
@@ -28,7 +29,7 @@ header h2 {
 /* Navigation Styling */
 nav{
     background-color: darkslategray;
-    color: blanchedalmond;
+    color: black;
     padding: 10px 20px;
     display: flex;
     justify-content: space-between;
