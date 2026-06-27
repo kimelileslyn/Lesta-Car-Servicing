@@ -4,24 +4,34 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CONTACTS</title>
-    <nav>
-        <ul>
-            <li><a href="HOME.html">HOME</a></li>
-            <li><a href="ABOUT US.html">ABOUT US</a></li>
-            <li><a href="CONTACTS.html">CONTACTS</a></li>
-            <li><a href="GARAGE.html">GARAGE</a></li>
-            <li><a href="BOOKINGS.html">BOOKINGS</a></li>
-            <li><a href="OFFERS.html">OFFERS</a></li>
-            <li><a href="SALES.html">SALES</a></li>
-            <li><a href="SERVICES.html">SERVICES</a></li>
+    <link rel="stylesheet" href="style.css">
 
-        </ul>
-    
-    
-        
-    </nav>
 </head>
 <body>
+    <header>
+        <h1>Contact Lesta Car Servicing</h1>
+        <section class="contact-info">
+            <h2>Contact Information</h2>
+            <p><strong>Address:</strong> 123 Main Street, Nairobi, Kenya</p>
+            <p><strong>Phone:</strong> +254 700 000 000</p>
+            <p><strong>Email:</strong> info@lestacarservicing.com</p>
+            <p><strong>Working Hours:</strong> Monday to Friday, 8:00 AM - 6:00 PM</p>
+            <ul>
+                <li>Monday to Friday: 8:00 AM - 6:00 PM</li>
+                <li>Saturday: 9:00 AM - 4:00 PM</li>
+                <li>Sunday: Closed</li>
+            </ul>
+            <h2>Send Us a Message</h2>
+            <form action="#" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+                <button type="submit">Send</button>
+            </form> 
+        </section>
 
 </body>
 </html>
