@@ -431,3 +431,11 @@ footer p {
     background-color: #e68900;
     transform: scale(1.05);
 }
+.offer-card {
+    .offer-card {
+    width: 800px;      /* Makes the box wide */
+    max-width: 90%;    /* Keeps it responsive on smaller screens */
+    margin: 20px auto; /* Centers it */
+}
+}
+
