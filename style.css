@@ -417,28 +417,28 @@ body {
     color: #1e3c72;
     text-align: center;
     margin: 20px 0 10px;
-    font-size: 28px;
+    font-size: 40px;
 }
 
 /* TEXT */
 .service-card p {
     padding: 0 20px 25px;
     text-align: center;
-    line-height: 1.7;
-    color: #444;
-    font-size: 17px;
+    line-height: 1.8;
+    color: #333;
+    font-size: 18px;
 }
 
 /* BUTTONS */
 .service-btn {
-    display: block;
+    display: inline-block;
     width: 150px;
     margin: 0 auto 25px;
     text-align: center;
     background-color: #ff9800;
     color: white;
     text-decoration: none;
-    padding: 12px;
+    padding: 12px 25px;
     border-radius: 30px;
     font-weight: bold;
     transition: 0.3s;

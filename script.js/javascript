@@ -1,0 +1,25 @@
+document.getElementById("bookingForm").addEventListener("submit", function(event) {
+        
+
+    let name = document.getElementById("name").value;
+    let email = document.getElementById("email").value;
+    let phone = document.getElementById("phone").value;
+    let date = document.getElementById("date").value;
+    let service = document.getElementById("service").value;
+
+    if (
+        name === "" ||
+        email === "" ||
+        phone === "" ||
+        date === "" ||
+        service === ""
+    ) {
+        event.preventDefault();
+        alert("Please fill in all fields.");
+        return;
+    }
+
+    alert("✅ Booking submitted successfully!");
+
+    document.getElementById("bookingForm").reset();
+});
