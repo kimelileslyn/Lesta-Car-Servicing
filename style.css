@@ -471,7 +471,22 @@ body.contact-page {
     background-color: #0a0a0a;
     color: white;
 }
+.offer-timer {
+    text-align: center;
+    color: white;
+    padding: 40px 20px;
+}
 
+.offer-timer h2 {
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+#countdown {
+    font-size: 28px;
+    color: #ff9800;
+    font-weight: bold;
+}
 /* HERO SECTION */
 .contact-hero {
     height: 400px;
