@@ -742,3 +742,72 @@ nav ul li a:hover {
 .service-card h3 {
     color: #1e3c72;
 }
+/* Smooth transition */
+body {
+    transition: background-color 0.5s, color 0.5s;
+}
+
+/* DARK THEME */
+body.dark-theme {
+    background-color: #0a0a0a;
+    color: white;
+}
+
+/* LIGHT THEME */
+body.light-theme {
+    background-color: #f4f8ff;
+    color: #222;
+}
+
+/* NAVIGATION BAR */
+body.dark-theme nav {
+    background-color: #0b1736;
+}
+
+body.light-theme nav {
+    background-color: #4a90e2;
+}
+
+/* SERVICE, OFFER, AND CONTACT CARDS */
+body.dark-theme .service-card,
+body.dark-theme .offer-card,
+body.dark-theme .info-card {
+    background: #1c1c1c;
+    color: white;
+}
+
+body.light-theme .service-card,
+body.light-theme .offer-card,
+body.light-theme .info-card {
+    background: white;
+    color: #222;
+}
+
+/* Headings */
+body.light-theme h1,
+body.light-theme h2,
+body.light-theme h3 {
+    color: #1e3c72;
+}
+
+body.dark-theme h1,
+body.dark-theme h2,
+body.dark-theme h3 {
+    color: #ff9800;
+}
+
+/* Toggle button */
+#theme-toggle {
+    background: #ff9800;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-weight: bold;
+    margin-left: 20px;
+}
+
+#theme-toggle:hover {
+    background: #e68900;
+}
